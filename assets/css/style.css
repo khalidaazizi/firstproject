@@ -1,0 +1,104 @@
+
+ @import '_carousel.css';
+
+*, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    direction: rtl;
+}
+a,a:hover{
+    text-decoration: none;
+    
+}
+li,ol,ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+p{
+    margin: 0;
+}
+
+
+/* 
+ navbar
+*/
+.nav-top-left ul a{
+    border-left: 1px solid #f9f6f6;
+    padding: 10px;
+    font-size: 14px;
+    color: rgb(72, 69, 69);
+}
+.nav-top-right p{
+    font-size: 14px;
+}
+
+.search-section div.input-search {
+    margin-left: auto ;
+    margin-right: 60px;
+}
+
+
+.search-section div.submit-btn{
+    padding-left: 0;
+}
+.search-section div.buy-btn{
+        padding-left: 0;
+        display: flex;
+        justify-content:start;
+}
+
+div.navbar-collapse ul li a.nav-link, div.navbar-collapse a{
+    color: rgb(19, 17, 17) !important;
+    font-size: 14px;
+
+}
+
+div.navbar-collapse ul li {
+    position: unset;
+}
+div.navbar-collapse div.navbar-dropdown-menu{
+    right: 0;
+    width: 100%;
+    box-shadow: 1px 1px 10px 1px #00000049;
+}
+
+.dropdown-img img{
+    width: 280px;
+    box-shadow: 1px 1px 10px 1px #00000049;
+
+}
+ /* .dropdown-link div.hidden ul{
+    visibility:hidden;
+}
+.visible:hover .dropdown-link h6.visible >ul{
+    visibility: visible;
+}  */
+.dropdown-menu ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    
+}
+ .mr{
+    margin-right: -3px;
+}
+.mr::after{
+    content: '';
+    background-color: red;
+    width: 2px;
+    height: 15px;
+    position: absolute;
+    
+}
+div.mobail li  h6,div.book li  h6, div.electric li  h6 ,div.dress li  h6{
+    display:none;
+}
+div.mobail li ul.mune ,div.book li ul.mune, div.electric li ul.mune ,div.dress li ul.mune{
+    display:none;
+}
