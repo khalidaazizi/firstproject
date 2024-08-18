@@ -1,0 +1,22 @@
+ 
+ div.post img{
+    position: relative;
+    border-radius: 6px;
+}
+
+div.post  h6{
+    position: absolute;
+    top: 60px;
+    right: 13px;
+    
+}
+
+div.post p{
+    position: absolute;
+    top: 121px;
+    bottom: 0;
+} 
+
+
+
+
