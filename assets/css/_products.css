@@ -1,0 +1,40 @@
+
+
+div.product{
+    margin: 10px 0;
+}
+
+div.product img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    position: relative;
+}
+
+div.product p{
+    position: absolute;
+    right: 28px;
+    bottom: 74px;
+    text-wrap: wrap;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+
+}
+
+div.product a{
+    position: absolute;
+    left: 35px;
+    bottom:  16px;
+}
+
+div.product  a.Custom-outline{
+    padding: 10px 20px 12px 20px;
+    border-radius: 11px;
+}
+ 
+  a.Custom-outline:hover{
+    background-color: #e8e8e8;
+   
+}

@@ -6,45 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
      <!-- fontawesome -->
     <link rel="stylesheet" href="assets/icons/fontawesome-free-6.5.2-web/css/all.min.css">
-    <!-- bootstrap -->
-     <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb" crossorigin="anonymous">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <!-- style css -->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>1 فروشگاه انترنتی</title>
   
   </head>
   <body dir="rtl">
-    <!-- start navbar section  -->
-    <navbar class="container-fluid bg-warning p-0 d-block w-100">
-      
-      <!-- search section -->
+  <!-- start navbar section  -->
+    <navbar class="container-fluid d-block w-100">
+  <!-- start search section -->
       <section class="container-fluid search-section d-block w-100  ">
-        <div class="row p-0 d-flex justify-content-center align-items-center ">
-          <div class="col-lg-2 d-flex d-none d-lg-block">
+        <div class="row  p-0 d-flex justify-content-center align-items-center  ">
+          <div class="col-lg-2  d-flex d-none d-lg-block ">
             <a class="navbar-brand" href="#"><img src="assets/images/logo.jpg" alt=""/></a>
           </div>
-          <div class="col-md-12 col-lg-5">
+          <div class="col-md-10 col-lg-6">
             <div class="search-input">
               <i class="fa-solid fa-magnifying-glass"></i>
-              <input  type="text"  class="form-control" placeholder="جستجو بین بیش از 250000 کالا..."/>
+              <input  type="text" class="form-control search"  placeholder="جستجو بین بیش از 250000 کالا..."/>
             </div>
           </div>
           <div class="col-lg-2 d-none d-lg-block">
             <div class="login">
-              <a class="btn btn-light" href="#"> ثبت نام
+              <a class="btn btn-light" href="#"> <span>ثبت نام</span>  
                  <i class="fa-regular fa-user"></i>
               </a>
             </div>
           </div>
           <div class="col-lg-2 d-none d-lg-block">
             <div class=" buy  ">
-              <a class="btn btn-light" href="#">
-                سبد خرید
+              <a class="btn btn-light" href="#"><span>سبد خرید</span>
                 <i class="fas fa-cart-plus"></i>
               </a>
             </div>
@@ -53,12 +47,15 @@
       </section>
         <!-- end   search section -->
 
-        <!-- nav-bottom  -->
-      <section class="container">
-        <div class="row   position-relative ">
+
+  <!-- menu  -->
+      <section class="container menu">
+        <div class="row  ">
           <nav class="navbar navbar-expand-lg ">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+              <span class="navbar-toggler-icon">
+                <i class="fa-solid fa-bars"></i>
+              </span>
             </button>
             <div class="collapse navbar-collapse  " id="navbarcollapse">
               <ul class="navbar-nav ">
@@ -103,90 +100,44 @@
           </nav>
         </div>
       </section>
-      <!-- end nav-bottom  -->
+      <!-- end menu  -->
 
     </navbar>
       <!-- end navbar -->
+
+
+
+      
     <main  >
       <!-- start carousel section  -->
-      <section class="container mt-5 ">
-        <div class="row">
-          <div class="col">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-              </ol>
-              <div class="carousel-inner">
+      <section class=" carousel mt-5 ">
+          <div id="carouselExample" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img class="d-block w-100" src="/assets/images/slid-img-1.jpg" alt="First slide">
+                    <img src="/assets/images/slid-img-1 (2).jpg" class="d-block w-100" alt="Slide 1">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="/assets/images/slid-img-1.jpg" alt="Second slide">
+                    <img src="/assets/images/slid-img-1 (2).jpg" class="d-block w-100" alt="Slide 2">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="/assets/images/slid-img-2.jpg" alt="Third slide">
+                    <img src="/assets/images/slid-img-1 (2).jpg" class="d-block w-100" alt="Slide 3">
                 </div>
-              </div>
-              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            </div>
+            <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            </a>
+            <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
-              </a>
-            </div>
-          </div>
+            </a>
         </div>
       </section>
       <!-- end carousel  section-->
 
 
-      <!--  -->
-  <section class="container-fluid mt-5 d-none d-xl-block">
-    <div class="row shipping-wrapper">
-     <div class="col-xl-2  " >
-       <div class="ship ">
-        <img src="assets/images/car.jpg" alt="">
-       <p>ارسال رایگان به تمام نقات کشور</p>
-       </div>
-     </div>
-     <div class=" col-xl-2  " >
-      <div class="ship ">
-        <img src="assets/images/masg.jpg" alt="">
-        <p>ارسال رایگان به تمام نقات کشور</p>
-      </div>
-    </div>
-    <div class="col-xl-2  " >
-      <div class="ship ">
-        <img src="assets/images/car.jpg" alt="">
-      <p>ارسال رایگان به تمام نقات کشور</p>
-      </div>
-    </div>
-    <div class="col-xl-2   " >
-      <div class="ship ">
-        <img src="assets/images/masg.jpg" alt="">
-        <p>ارسال رایگان به تمام نقات کشور</p>
-      </div>
-    </div>
-    <div class="col-xl-2  " >
-      <div class="ship ">
-        <img src="assets/images/car.jpg" alt="">
-        <p>ارسال رایگان به تمام نقات کشور</p>
-      </div>
-    </div>
-    <div class="col-xl-2  " >
-      <div class="ship ">
-        <img src="assets/images/masg.jpg" alt="">
-      <p>ارسال رایگان به تمام نقات کشور</p>
-      </div>
-    </div>
-    </div>
-  </section>
-<!--  -->
-
+ 
+<!-- start featurd section -->
 
 <section class="container  mt-5">
   <div class="row post ">
@@ -207,14 +158,14 @@
   </div>
 
 </section>
-
+<!-- end featurd section   -->
 
 <!-- start categories  -->
-<section class=" container categories mt-5  ">
+<section class=" container mt-5" id="categories">
   <h5>خرید بر اساس دسته بندی </h5>
-  <div class="row  mt-5">
+  <div class="row  mt-5 ">
    
-    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 ">
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 d-flex justify-content-center ">
       <div class=" categorie">
         <div class="back-img">
           <img src="/assets/images/das11.png" alt="">
@@ -223,7 +174,7 @@
       </div>
     </div>
 
-    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2   ">
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2   d-flex justify-content-center">
       <div class=" categorie ">
         <div class="back-img">
           <img src="/assets/images/das11.png" alt="">
@@ -232,7 +183,7 @@
       </div>
     </div>
 
-    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 ">
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2  d-flex justify-content-center">
       <div class=" categorie">
         <div class="back-img">
           <img src="/assets/images/das11.png" alt="">
@@ -241,7 +192,7 @@
       </div>
     </div>
 
-    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2  ">
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2  d-flex justify-content-center ">
       <div class=" categorie">
         <div class="back-img">
           <img src="/assets/images/das11.png" alt="">
@@ -250,7 +201,7 @@
       </div>
     </div>
 
-    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2  ">
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2   d-flex justify-content-center">
       <div class=" categorie">
         <div class="back-img">
           <img src="/assets/images/das11.png" alt="">
@@ -259,7 +210,7 @@
       </div>
     </div>
 
-    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2   ">
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2    d-flex justify-content-center">
       <div class=" categorie ">
         <div class="back-img">
           <img src="/assets/images/das11.png" alt="">
@@ -269,8 +220,7 @@
     </div>
   </div>
   <div class="row mt-5">
-   
-    <div class="col-xs-12  col-sm-6 col-md-4 col-lg-2 bg-warning">
+    <div class="col-xs-12  col-sm-6 col-md-4 col-lg-2  d-flex justify-content-center">
       <div class=" categorie">
         <div class="back-img">
           <img src="/assets/images/das11.png" alt="">
@@ -278,8 +228,7 @@
         <p>مد و پوشاک</p>
       </div>
     </div>
-
-    <div class="col-xs-12  col-sm-6 col-md-4 col-lg-2 bg-light  ">
+    <div class="col-xs-12  col-sm-6 col-md-4 col-lg-2  d-flex justify-content-center">
       <div class=" categorie ">
         <div class="back-img">
           <img src="/assets/images/das11.png" alt="">
@@ -287,8 +236,7 @@
         <p>مد و پوشاک</p>
       </div>
     </div>
-
-    <div class="col-xs-12  col-sm-6 col-md-4 col-lg-2 bg-danger">
+    <div class="col-xs-12  col-sm-6 col-md-4 col-lg-2 d-flex justify-content-center">
       <div class=" categorie">
         <div class="back-img">
           <img src="/assets/images/das11.png" alt="">
@@ -296,8 +244,7 @@
         <p>مد و پوشاک</p>
       </div>
     </div>
-
-    <div class="col-xs-12  col-sm-6 col-md-4 col-lg-2 bg-warning">
+    <div class="col-xs-12  col-sm-6 col-md-4 col-lg-2   d-flex justify-content-center">
       <div class=" categorie">
         <div class="back-img">
           <img src="/assets/images/das11.png" alt="">
@@ -305,8 +252,7 @@
         <p>مد و پوشاک</p>
       </div>
     </div>
-
-    <div class="col-xs-12  col-sm-6 col-md-4 col-lg-2 bg-danger">
+    <div class="col-xs-12  col-sm-6 col-md-4 col-lg-2  d-flex justify-content-center">
       <div class=" categorie">
         <div class="back-img">
           <img src="/assets/images/das11.png" alt="">
@@ -314,8 +260,7 @@
         <p>مد و پوشاک</p>
       </div>
     </div>
-
-    <div class="col-xs-12  col-sm-6 col-md-4 col-lg-2 bg-warning ">
+    <div class="col-xs-12  col-sm-6 col-md-4 col-lg-2    d-flex justify-content-center">
       <div class=" categorie ">
         <div class="back-img">
           <img src="/assets/images/das11.png" alt="">
@@ -330,9 +275,119 @@
 
 
 
+<!-- start products section -->
+<section class="container-fluid  mt-5" id="products">
+  <div class="row  ">
+    <div class="col-xs-12 col-sm-6  col-lg-3">
+      <div class="product ">
+        <img class="d-block w-100" src="/assets/images/img1.jpg" alt="">
+        <p>سیت کامل آشپزخانه با رنگ های <br> متفاوت ۱۵ % تخفیف</p>
+        <a href="" type="button" class="btn btn-outline-light Custom-outline">بیشتر...</a>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6  col-lg-3">
+      <div class="product">
+        <img class="d-block w-100" src="/assets/images/img2.jpg" alt="">
+        <p>با کیفیت ترین ژاکت های  <br>بافت دستی خزانی </p>
+        <a href="" type="button" class="btn btn-outline-light Custom-outline">بیشتر...</a>
+      </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-lg-3">
+        <div class="product">
+          <img class="d-block w-100" src="/assets/images/img3.jpg" alt="">
+          <p>بهترین کوچ های سال <br> با ۱۰ % تخفیف</p>
+          <a href="" type="button" class="btn btn-outline-light Custom-outline">بیشتر...</a>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-6  col-lg-3">
+        <div class="product ">
+          <img class="d-block w-100" src="/assets/images/img4.jpg" alt="" >
+          <p>بهترین فرصت خرید لوازم خودرو<br> و موتورسیکلت تا ۳۰ % تخفیف</p>
+          <a href="" type="button" class="btn btn-outline-light Custom-outline ">بیشتر...</a>
+        </div>
+      </div>  
+  </div>
+
+</section>
+
+<!-- end products section -->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 
+
+
+<!-- start products section -->
+<section class="container-fluid  mt-5" id="products">
+  <div class="row  ">
+    <div class="col-xs-12 col-sm-6  col-lg-3">
+      <div class="product ">
+        <img class="d-block w-100" src="/assets/images/img5.jpg" alt="">
+        <p>سیت کامل آشپزخانه با رنگ های <br> متفاوت ۱۵ % تخفیف</p>
+        <a href="" type="button" class="btn btn-outline-light Custom-outline">بیشتر...</a>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6  col-lg-3">
+      <div class="product">
+        <img class="d-block w-100" src="/assets/images/img6.jpg" alt="">
+        <p>با کیفیت ترین ژاکت های  <br>بافت دستی خزانی </p>
+        <a href="" type="button" class="btn btn-outline-light Custom-outline">بیشتر...</a>
+      </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-lg-3">
+        <div class="product">
+          <img class="d-block w-100" src="/assets/images/img7.jpg" alt="">
+          <p>بهترین کوچ های سال <br> با ۱۰ % تخفیف</p>
+          <a href="" type="button" class="btn btn-outline-light Custom-outline">بیشتر...</a>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-6  col-lg-3">
+        <div class="product ">
+          <img class="d-block w-100" src="/assets/images/img8.jpg" alt="" >
+          <p>بهترین فرصت خرید لوازم خودرو<br> و موتورسیکلت تا ۳۰ % تخفیف</p>
+          <a href="" type="button" class="btn btn-outline-light Custom-outline ">بیشتر...</a>
+        </div>
+      </div>  
+  </div>
+
+</section>
+
+<!-- end products section -->
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
@@ -345,21 +400,84 @@
 <br>
 
 
+
+
+
+<!-- start products section -->
+<section class="container-fluid  mt-5" id="products">
+  <div class="row  ">
+    <div class="col-xs-12 col-sm-6  col-lg-3">
+      <div class="product ">
+        <img class="d-block w-100" src="/assets/images/img9.jpg" alt="">
+        <p>سیت کامل آشپزخانه با رنگ های <br> متفاوت ۱۵ % تخفیف</p>
+        <a href="" type="button" class="btn btn-outline-light Custom-outline">بیشتر...</a>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6  col-lg-3">
+      <div class="product">
+        <img class="d-block w-100" src="/assets/images/img10.jpg" alt="">
+        <p>با کیفیت ترین ژاکت های  <br>بافت دستی خزانی </p>
+        <a href="" type="button" class="btn btn-outline-light Custom-outline">بیشتر...</a>
+      </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-lg-3">
+        <div class="product">
+          <img class="d-block w-100" src="/assets/images/img11.jpg" alt="">
+          <p>بهترین کوچ های سال <br> با ۱۰ % تخفیف</p>
+          <a href="" type="button" class="btn btn-outline-light Custom-outline">بیشتر...</a>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-6  col-lg-3">
+        <div class="product ">
+          <img class="d-block w-100" src="/assets/images/img12.jpg" alt="" >
+          <p>بهترین فرصت خرید لوازم خودرو<br> و موتورسیکلت تا ۳۰ % تخفیف</p>
+          <a href="" type="button" class="btn btn-outline-light Custom-outline ">بیشتر...</a>
+        </div>
+      </div>  
+  </div>
+
+</section>
+
+<!-- end products section -->
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
    <!-- start layout_mobile_navbar_footer -->
    <section  id="layout_mobile_navbar_footer"  class="container-fluid bg-light  d-xs-block d-lg-none ">
       <div class="row ">
           <div class="col">
-              <div class=" huose navbar_footer">
+              <div class=" mobile_footer_animation navbar_footer">
                   <a  href="/index.html">
-                      <i class="fa-solid fa-house"></i>
-                    <p class="text-caption ">خانه</p>
+                       <i class="fa-solid fa-house"></i>
+                       <p class="text-caption ">خانه</p>
                 </a>
             </div>
           </div>
 
           <div class="col">
-              <div class="log navbar_footer">
+              <div class="mobile_footer_animation navbar_footer">
                 <a  href="#">
                     <i class="fa-regular fa-user"></i>
                   <p >ثبت نام</p>
@@ -368,7 +486,7 @@
           </div>
 
           <div class="col">
-            <div class="buy  navbar_footer">
+            <div class="mobile_footer_animation  navbar_footer">
                 <a  href="#"> 
                     <i class="fas fa-cart-plus"></i> 
                   <p >سبد خرید</p>
@@ -380,21 +498,13 @@
 
 
 
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
+
+
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
   </body>
 </html>
 

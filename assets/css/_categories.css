@@ -1,18 +1,31 @@
-section.categories h5{
+
+section#categories h5{
    text-align: center;
    font-size: 23px;
    font-weight: 500;
    margin-bottom: 88px;
    color: #514f4f;
 }
+ 
+div.categorie{
+   padding: 24px;
+   transition: all .09s ease;
+}
 
+div.categorie:hover{
+    box-shadow: 1px 1px 10px 1px #00000038;
+    border-radius: 10%;
+}
 div.categorie p{
     margin: 10px;
     padding: 5px;
+    font-size: 14px;
 }
-
+/* div.categorie:hover p{
+    text-shadow: 1px 1px 3px #a49e9e;
+} */
 div.back-img{
-    background-color: #f3e3d7;
+    background-color: #efefef;
     width: 100px;
     height: 96px;
     border-radius: 50%;
@@ -21,18 +34,11 @@ div.back-img{
 
 }
 
+
 div.back-img img{
     position: absolute;
-    top: -20px;
-    right: 0px;
+    top: -29px;
+    right: -5px;
     width: 111px;
     
 }
-
-/* div.back-img img::after{
-    content: '';
-    width: 30px;
-    height: 20px;
-    color: rgba(0, 0, 0, 0.352);
-    border-radius: 30%;
-} */
