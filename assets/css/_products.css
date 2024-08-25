@@ -23,18 +23,20 @@ div.product p{
 
 }
 
-div.product a{
+div.product  a.button{
     position: absolute;
     left: 35px;
     bottom:  16px;
-}
-
-div.product  a.Custom-outline{
-    padding: 10px 20px 12px 20px;
+    background-color:transparent;
+    border:1px solid #9c9c9c;
     border-radius: 11px;
+    color: rgb(21, 19, 19);
+    padding: 5px 13px 8px 13px;
+    transition: all .09s ease;
+    
 }
  
-  a.Custom-outline:hover{
-    background-color: #e8e8e8;
-   
+a.button:hover{
+    background-color:  #c7c7c8 !important;
+    border-color: #c7c7c8 !important;
 }
