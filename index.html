@@ -12,7 +12,22 @@
     <!-- style css -->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>1 فروشگاه انترنتی</title>
-  
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        main {
+            flex: 1; /* This pushes footer to the bottom */
+            margin-bottom: 20px; /* Add margin at the bottom of the content */
+        }
+
+        #layout_mobile_navbar_footer {
+            margin-top: auto;
+        }
+  </style>
   </head>
   <body dir="rtl">
   <!-- start navbar section  -->
@@ -104,23 +119,19 @@
 
     </navbar>
       <!-- end navbar -->
-
-
-
-      
     <main  >
       <!-- start carousel section  -->
       <section class=" carousel mt-5 ">
           <div id="carouselExample" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="assets/images/slid-img-1 (2).jpg" class="d-block w-100" alt="Slide 1">
+                    <img src="assets/images/slid-img.jpg" class="d-block w-100" alt="Slide 1">
                 </div>
                 <div class="carousel-item">
-                    <img src="assets/images/slid-img-1 (2).jpg" class="d-block w-100" alt="Slide 2">
+                    <img src="assets/images/slid-img.jpg" class="d-block w-100" alt="Slide 2">
                 </div>
                 <div class="carousel-item">
-                    <img src="assets/images/slid-img-1 (2).jpg" class="d-block w-100" alt="Slide 3">
+                    <img src="assets/images/slid-img.jpg" class="d-block w-100" alt="Slide 3">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
@@ -169,8 +180,7 @@
     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 d-flex justify-content-center ">
       <div class=" categorie">
         <div class="back-img">
-          <img src="assets/images/das11.png" alt="">
-        
+          <img src=" assets/images/das11.png" alt="">
         </div>
         <p>مد و پوشاک</p>
       </div>
@@ -179,8 +189,7 @@
     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2   d-flex justify-content-center">
       <div class=" categorie ">
         <div class="back-img">
-          <!-- <img src="assets/images/das2.png" alt="">
-          <img src="assets/images/das3.png" alt=""> -->
+          <img src=" assets/images/das11.png" alt="">
         </div>
         <p>مد و پوشاک</p>
       </div>
@@ -189,7 +198,7 @@
     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2  d-flex justify-content-center">
       <div class=" categorie">
         <div class="back-img">
-          <img src="assets/images/das11.png" alt="">
+          <img src=" assets/images/das11.png" alt="">
         </div>
         <p>مد و پوشاک</p>
       </div>
@@ -198,7 +207,7 @@
     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2  d-flex justify-content-center ">
       <div class=" categorie">
         <div class="back-img">
-          <img src="assets/images/das11.png" alt="">
+          <img src=" assets/images/das11.png" alt="">
         </div>
         <p>مد و پوشاک</p>
       </div>
@@ -314,35 +323,7 @@
   </div>
 
 </section>
-
-<!-- end products section -->
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
-
-
-
-<!-- start products section -->
-<section class="container-fluid  mt-5" id="products">
+ <section class="container-fluid  mt-5" id="products">
   <div class="row  ">
     <div class="col-xs-12 col-sm-6  col-lg-3">
       <div class="product ">
@@ -377,36 +358,6 @@
   </div>
 
 </section>
-
-<!-- end products section -->
-
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
-
-
-
-<!-- start products section -->
 <section class="container-fluid  mt-5" id="products">
   <div class="row  ">
     <div class="col-xs-12 col-sm-6  col-lg-3">
@@ -443,60 +394,35 @@
 
 </section>
 
-<!-- end products section -->
-
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
    <!-- start layout_mobile_navbar_footer -->
-   <section  id="layout_mobile_navbar_footer"  class="container-fluid bg-light  d-xs-block d-lg-none ">
-      <div class="row ">
-          <div class="col">
-              <div class=" mobile_footer_animation navbar_footer">
-                  <a  href="/index.html">
-                       <i class="fa-solid fa-house"></i>
-                       <p class="text-caption ">خانه</p>
+   <section id="layout_mobile_navbar_footer" class="container-fluid bg-light d-xs-block">
+    <div class="row">
+        <div class="col">
+            <div class="mobile_footer_animation navbar_footer">
+                <a href="index.html">
+                    <i class="fa-solid fa-house"></i>
+                    <p class="text-caption">خانه</p>
                 </a>
             </div>
-          </div>
-
-          <div class="col">
-              <div class="mobile_footer_animation navbar_footer">
-                <a  href="#">
+        </div>
+        <div class="col">
+            <div class="mobile_footer_animation navbar_footer">
+                <a href="#">
                     <i class="fa-regular fa-user"></i>
-                  <p >ثبت نام</p>
-              </a>
+                    <p>ثبت نام</p>
+                </a>
             </div>
-          </div>
-
-          <div class="col">
-            <div class="mobile_footer_animation  navbar_footer">
-                <a  href="#"> 
-                    <i class="fas fa-cart-plus"></i> 
-                  <p >سبد خرید</p>
-              </a>
-          </div>
+        </div>
+        <div class="col">
+            <div class="mobile_footer_animation navbar_footer">
+                <a href="#">
+                    <i class="fas fa-cart-plus"></i>
+                    <p>سبد خرید</p>
+                </a>
+            </div>
+        </div>
     </div>
-  </section>
+</section>
   <!-- end  layout_mobile_navbar_footer -->
 
 
