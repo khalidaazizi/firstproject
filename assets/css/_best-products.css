@@ -1,0 +1,46 @@
+div.details-best-selling {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.details-best-selling img {
+  width: 64px;
+}
+
+div.details-best-selling p {
+  text-align: start;
+  width: 275px;
+  height: 100px;
+  padding-top: 31px;
+  padding-right: 29px;
+  position: relative;
+  margin: 5px;
+}
+div.border-style p {
+  border-bottom: 1px solid #f0ecec;
+}
+
+div.details-best-selling p span {
+  color: #23b5ba;
+  font-size: 30px;
+  font-weight: 600;
+  position: absolute;
+  right: 0;
+  top: 22px;
+}
+
+div.details-best-selling p a {
+  position: absolute;
+  background: green;
+  color: #fff;
+  padding: 0 16px;
+  text-align: center;
+  border-radius: 34px;
+  bottom: 5px;
+  left: 0;
+  top: 66px;
+}
+div.details-best-selling p a:hover {
+  background-color: #29b529;
+}

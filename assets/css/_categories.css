@@ -1,44 +1,94 @@
-
-section#categories h5{
-   text-align: center;
-   font-size: 23px;
-   font-weight: 500;
-   margin-bottom: 88px;
-   color: #514f4f;
-}
- 
-div.categorie{
-   padding: 24px;
-   transition: all .09s ease;
+section#categories h5 {
+  text-align: center;
+  font-size: 23px;
+  font-weight: 500;
+  margin-bottom: 88px;
+  color: #514f4f;
 }
 
-div.categorie:hover{
-    box-shadow: 1px 1px 10px 1px #00000038;
-    border-radius: 10%;
-}
-div.categorie p{
-    margin: 10px;
-    padding: 5px;
-    font-size: 14px;
-}
-/* div.categorie:hover p{
-    text-shadow: 1px 1px 3px #a49e9e;
-} */
-div.back-img{
-    background-color: #efefef;
-    width: 100px;
-    height: 96px;
-    border-radius: 50%;
-    text-align: center;
-    position: relative;
-
+div.categorie {
+  padding: 24px;
+  transition: all 0.09s ease;
 }
 
+div.categorie:hover {
+  box-shadow: 1px 1px 10px 1px #00000038;
+  border-radius: 10%;
+}
+div.categorie p {
+  margin: 10px;
+  padding: 5px;
+  font-size: 14px;
+}
 
-div.back-img img{
-    position: absolute;
-    top: -29px;
-    right: -5px;
-    width: 111px;
-    
+div.back-img {
+  background-color: rgb(232, 223, 225);
+   background: linear-gradient(
+    0deg,
+    rgba(238, 215, 221, 1) 2%,
+    rgba(234, 237, 215, 1) 100%
+  ); 
+
+  width: 100px;
+  height: 96px;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+}
+
+div.back-img img {
+  width: 111px;
+  position: absolute;
+  top: -29px;
+  right: -5px;
+}
+
+div.back-img .cate-img-2 {
+  top: -22px;
+  width: 104px;
+  right: -4px;
+}
+
+div.back-img .cate-img-3 {
+  width: 97px;
+  top: -26px;
+  right: 0px;
+}
+div.back-img .cate-img-1 {
+  top: 9px;
+  width: 138px;
+  right: -10px;
+}
+div.back-img .cate-img-4 {
+  top: 40px;
+}
+div.back-img .cate-img-5 {
+  top: -29;
+}
+div.back-img .cate-img-6 {
+  top: 0;
+}
+div.back-img .cate-img-8 {
+  top: 0;
+  border-radius: 50%;
+}
+div.back-img .cate-img-7 {
+  top: -41px;
+  right: -15px;
+}
+
+div.back-img .cate-img-9 {
+  top: 12px;
+  width: 118px;
+  right: -9px;
+}
+
+div.back-img .cate-img-12 {
+  top: -10px;
+  right: -17px;
+  width: 134px;
+}
+div.back-img .cate-img-14 {
+  top: -15px;
+  right: -5px;
 }
