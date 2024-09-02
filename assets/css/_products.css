@@ -1,8 +1,8 @@
-div.product  {
+div.product {
   margin: 10px 0;
 }
 
-div.product  img {
+div.product img {
   display: block;
   width: 100%;
   height: auto;
@@ -10,7 +10,7 @@ div.product  img {
   position: relative;
 }
 
-div.product  p {
+div.product p {
   position: absolute;
   right: 28px;
   bottom: 74px;
@@ -36,3 +36,5 @@ a.button:hover {
   background-color: #c7c7c8 !important;
   border-color: #c7c7c8 !important;
 }
+
+

@@ -1,3 +1,10 @@
+#slider_products-one img{
+  height: 200px;
+  transition: .5s;
+}
+.bg-gray{
+  background-color: #fbfafa;
+}
 section#slider_products div.row {
   position: relative;
   background-color: #efefef;
@@ -9,7 +16,12 @@ div.owl-carousel {
   position: relative !important;
   
 }
-
+#slider_products img{
+  transition: .5s;
+}
+div.owl-carousel a:hover img{
+  transform: scale(1.05);
+}
 div.owl-carousel div.owl-nav {
   position: absolute;
   top: 101px;
@@ -52,36 +64,42 @@ div.owl-carousel div.owl-nav button.owl-prev span {
   font-size: 40px;
 }
 
-/* slider-tow  */
-section#slider_products-tow div.slider-tow {
-  position: relative;
-  /* background-color: #efefef; */
-  margin: 25px 0;
-  padding: 40px 0;
-}
-section#slider_products-tow div.slider-tow{
-   /* display: flex;
-   flex-direction: column; */
-
-}
-section#slider_products-tow div.slider-tow .slider-product {
-    display: flex;
-    align-items: end;
-    flex-direction: column;
-    width: 1000px;
-    height: 461px;
-    padding-bottom: 63px;
-}
+/* slider-two  */
 
 
-section#slider_products-tow div.owl-carousel div.owl-nav {
+section#slider_products-two div.owl-carousel div.owl-nav {
     top: 71px;
 }
 
-section#slider_products-tow div.owl-carousel button.owl-prev,section#slider_products-tow div.owl-carousel button.owl-next {
-    width: 20px;
+section#slider_products-two div.owl-carousel button.owl-prev,section#slider_products-two div.owl-carousel button.owl-next {
+    width: 25px;
 }
 
-div.slider-tow .slider-product div.title{
-    
+section#slider_products-two  div.title{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 190px;
+  flex-direction: column;
+
+}
+section#slider_products-two  div.title h5{
+  color: #fff;
+  padding-top: 30px;
+  font-size: 27px;
+  margin-bottom: 30px;
+
+}
+section#slider_products-two  div.title p{
+  color: #fff;
+}
+section#slider_products-two  div.title a:hover{
+  background-color: #efefef;
+}
+section#slider_products-two .owl-carousel{
+  padding-bottom: 40px;
+}
+section#slider_products-two img{
+  height: 200px;
+  transition: .5s;
 }

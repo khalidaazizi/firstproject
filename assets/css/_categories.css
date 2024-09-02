@@ -1,11 +1,14 @@
-section#categories h5 {
+ h5 {
   text-align: center;
   font-size: 23px;
   font-weight: 500;
+  
   margin-bottom: 88px;
   color: #514f4f;
 }
-
+section#categories .row{
+  padding: 25px 0;
+}
 div.categorie {
   padding: 24px;
   transition: all 0.09s ease;
