@@ -1,0 +1,59 @@
+section#daliy-discounts{
+    margin-bottom: 100px;
+    background-color: #fff;
+    padding: 30px;
+}
+
+section#daliy-discounts .daliy-discount img {
+  width: 100%;
+  height: auto;
+  display: block;
+
+  border-radius: 50%;
+  margin-bottom: 15px;
+  transition: .3s;
+}
+section#daliy-discounts .daliy-discount img:hover{
+    transform: scale(1.1)  rotate(8deg);
+ 
+}
+
+
+
+div.daliy-discount div.daliy-discount-detail {
+  background: #51b6e2;
+  padding: 10px;
+  border-radius: 10px;
+}
+div.daliy-discount div.daliy-discount-detail p {
+  margin-right: 5px;
+  text-wrap: wrap;
+  font-size: 16px;
+
+  color: rgb(17, 17, 17);
+}
+div.daliy-discount-detail p strong {
+  color: red;
+}
+div.daliy-discount-detail div.daliy-price {
+  margin: 10px 0 20px 0;
+}
+div.daliy-discount-detail div.daliy-price s {
+  color: red;
+  padding: 0 4px 0 4px;
+}
+div.daliy-discount-detail a {
+  margin: 10px 0 !important;
+  background-color: #efefef;
+  border: 1px solid #efefef;
+  border-radius: 5px;
+  color: rgb(55, 55, 55);
+  text-align: center;
+  padding: 8px 50px;
+  transition: all 0.3s;
+}
+div.daliy-discount-detail a:hover {
+  background-color: #e3e0e0;
+  border-color: #e3e0e0;
+  color: rgb(247, 4, 4);
+}

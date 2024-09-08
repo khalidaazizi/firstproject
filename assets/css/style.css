@@ -1,12 +1,19 @@
+@import "_navbar.css";
 @import "_carousel.css";
-@import "_posts.css";
+@import "_ banner.css";
 @import "_categories.css";
 @import "_mobile-bottom-navbar.css";
 @import "_products.css";
 @import "_offers.css";
 @import "_best-products.css";
 @import "_slider products.css";                     
-@import "_special-products.css";     
+@import "_special-products.css";
+@import "_daliy-discounts.css";
+@import "_footer.css";
+
+
+
+/* general style */
 *,
 body {
   margin: 0;
@@ -15,9 +22,13 @@ body {
   direction: rtl;
 
 }
-body{
-   background-color: #fbfafa;
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #fbfafa;
 }
+
 a,
 a:hover {
   text-decoration: none;
@@ -32,218 +43,22 @@ ul {
 p {
   margin: 0;
 }
+ 
 
-/* 
- navbar
-*/
-navbar {
-  background-color: #f6f7f6;
-  position: relative;
-}
-.search-section {
-  padding-top: 60px;
-  padding-bottom: 25px;
-}
-a.navbar-brand img {
-  border-radius: 25px;
-  width: 130px;
-  height: 42px;
-}
-
-div.search-input input {
-  height: 42px;
-  position: relative;
-  padding-right: 43px;
-  /* color: #fffc; */
-  border-radius: 25px;
-}
-
-.form-control:focus {
-  color: #495057;
-  background-color: #ffffff;
-  border: 2px solid #ffffff;
-  outline: 0;
-  box-shadow: 1px 1px 10px #aea9a9;
-}
-/* input.search:focus  main  {
-   opacity: .5;
-
-}  */
-div.search-input:hover input {
-  border: 1px solid #bababa;
-  border-radius: 25px;
-  box-shadow: 1px 1px 10px #9e9d9d;
-}
-
-div.search-input i {
-  position: absolute;
-  top: 12px;
-  right: 31px;
-  z-index: 1;
-  color: #716969;
-}
-
-div.login,
-div.buy {
-  height: 42px;
-  display: flex;
-  justify-content: flex-end;
-}
-a.btn-gray {
-  background-color: #c7c7c8;
-  border-color: #c7c7c8;
-  color: #111111;
-  width: 100%;
-  border-radius: 30px;
-}
-
-.btn:focus {
-  box-shadow: unset !important;
-}
-.btn:hover {
-  color: unset;
-  background-color: unset;
-  border-color: unset;
-  border: none;
-}
-div.login:hover,
-div.buy:hover {
-  background: transparent !important;
-  border: 1px solid rgb(1, 1, 1);
-  border-radius: 25px;
-}
-
-div.login i,
-div.buy i {
-  padding: 0 9px;
-  align-content: 5px;
-}
-
-div.login span,
-div.buy span {
-  padding-right: 13px;
-}
-
-
-@media screen and (max-width:991px){
-  a.navbar-brand img, div.login,
-  div.buy {
-   display: none;
-
-  }
-}
-
-/* menu  */
-
-button.navbar-toggler {
-  background-color: transparent;
-  border: 2px solid #575757;
-}
-
-button.navbar-toggler span i {
-  color: #575757;
-  padding-top: 4px;
-}
-
-button.navbar-toggler:focus {
-  outline: 0;
-  border: 2px solid #000000;
-}
-button.navbar-toggler:focus i {
-  color: #000000;
-}
-
-.navbar-toggler:hover,
-.navbar-toggler:focus {
-  box-shadow: 0px 0px 9px 1px #525253 !important;
-}
-
-ul.navbar-nav li.nav-item a {
-  color: #000000;
-}
-
-a.line:hover::before {
-  content: "";
-  position: absolute;
-  bottom: -2px;
-  right: 0;
-  /* padding: 10px; */
-  height: 2px;
-  width: 100%;
-  z-index: 1;
-  background-color: red;
-  transition: all 0.09s ease-in-out;
-}
-
-/* layout_mobile_navbar_footer*/
-
-section#layout_mobile_navbar_footer {
-  margin-top: 30px;
-  height: 90px;
-  padding: 15px 0;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  border-top: 2px solid rgb(156, 154, 154);
-  background-color: #c9c9c9 !important;
-  display: none;
-}
-
-div.navbar_footer {
+.produtcts-title{
   text-align: center;
-  padding-top: 9px;
-  padding-bottom: 10px;
-  text-wrap: nowrap;
-}
-div.navbar_footer:hover {
-  border: 1px solid #bababa;
-  box-shadow: 1px 1px 5px #525253;
-  margin: 0 10px;
-}
-div.navbar_footer a {
-  color: #111111;
-  font-size: 15px;
+  font-size: 23px;
+  font-weight: 500;
+  margin-bottom: 39px;
+  margin-top: 76px;
+  color: #514f4f;
 }
 
-div.mobile_footer_animation:hover a {
-  animation-play-state: running;
-  animation: change-text-size 0.9s ease forwards;
-}
 
-@keyframes change-text-size {
-  0% {
-    font-size: 14px;
-    top: 0;
-  }
 
-  25% {
-    font-size: 16px;
-    top: 0;
-  }
 
-  50% {
-    font-size: 17px;
-    top: 0;
-  }
 
-  75% {
-    font-size: 16px;
-    top: 0;
-  }
 
-  100% {
-    
-    font-size: 14px;
-    top: 0;
-  }
-}
-
-@media screen and (max-width:991px){
-  section#layout_mobile_navbar_footer{
-    display: block;
-  }
-}
 
 
 

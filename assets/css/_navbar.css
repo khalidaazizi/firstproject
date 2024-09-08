@@ -1,0 +1,143 @@
+
+
+/* 
+ navbar
+*/
+navbar {
+    background-color: #f6f7f6;
+    position: relative;
+  }
+  .search-section {
+    padding-top: 60px;
+    padding-bottom: 25px;
+  }
+  a.navbar-brand img {
+    border-radius: 25px;
+    width: 130px;
+    height: 42px;
+  }
+  
+  div.search-input input {
+    height: 42px;
+    position: relative;
+    padding-right: 43px;
+    /* color: #fffc; */
+    border-radius: 25px;
+  }
+  
+  .form-control:focus {
+    color: #495057;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    outline: 0;
+    box-shadow: 1px 1px 10px #aea9a9;
+  }
+  /* input.search:focus  main  {
+     opacity: .5;
+  
+  }  */
+  div.search-input:hover input {
+    border: 1px solid #bababa;
+    border-radius: 25px;
+    box-shadow: 1px 1px 10px #9e9d9d;
+  }
+  
+  div.search-input i {
+    position: absolute;
+    top: 12px;
+    right: 31px;
+    z-index: 1;
+    color: #716969;
+  }
+  
+  div.login,
+  div.buy {
+    height: 42px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  a.btn-gray {
+    background-color: #c7c7c8;
+    border-color: #c7c7c8;
+    color: #111111;
+    width: 100%;
+    border-radius: 30px;
+  }
+  
+  .btn:focus {
+    box-shadow: unset !important;
+  }
+  .btn:hover {
+    color: unset;
+    background-color: unset;
+    border-color: unset;
+    border: none;
+  }
+  div.login:hover,
+  div.buy:hover {
+    background: transparent !important;
+    border: 1px solid rgb(1, 1, 1);
+    border-radius: 25px;
+  }
+  
+  div.login i,
+  div.buy i {
+    padding: 0 9px;
+    align-content: 5px;
+  }
+  
+  div.login span,
+  div.buy span {
+    padding-right: 13px;
+  }
+  
+  
+  @media screen and (max-width:991px){
+    a.navbar-brand img, div.login,
+    div.buy {
+     display: none;
+  
+    }
+  }
+  
+  /* menu  */
+  
+  button.navbar-toggler {
+    background-color: transparent;
+    border: 2px solid #575757;
+  }
+  
+  button.navbar-toggler span i {
+    color: #575757;
+    padding-top: 4px;
+  }
+  
+  button.navbar-toggler:focus {
+    outline: 0;
+    border: 2px solid #000000;
+  }
+  button.navbar-toggler:focus i {
+    color: #000000;
+  }
+  
+  .navbar-toggler:hover,
+  .navbar-toggler:focus {
+    box-shadow: 0px 0px 9px 1px #525253 !important;
+  }
+  
+  ul.navbar-nav li.nav-item a {
+    color: #000000;
+  }
+  
+  a.line:hover::before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    right: 0;
+    /* padding: 10px; */
+    height: 2px;
+    width: 100%;
+    z-index: 1;
+    background-color: red;
+    transition: all 0.09s ease-in-out;
+  }

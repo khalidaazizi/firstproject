@@ -34,5 +34,15 @@ $(document).ready(function(){
 });
 
 
+// 
 
- 
+//  
+$(document).ready(function(){
+    $('.fa-heart').click(function(){ 
+     $(this).css("color", "red" );
+    });
+    $('.fa-thumbs-up').click(function(){ 
+        $(this).css("color", " #1e9cd7"  );
+    });
+    
+});    

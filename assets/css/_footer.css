@@ -1,0 +1,145 @@
+#footer {
+  background-color: rgb(228, 226, 226);
+}
+#footer h6 {
+  color: rgb(0, 0, 0);
+  text-align: start;
+}
+
+#footer ul li a {
+  color: rgb(114, 114, 114);
+  text-align: start;
+}
+
+#footer ul li a:hover {
+  color: rgb(39, 39, 39);
+}
+#footer .social-subscribe {
+  margin-bottom: 80px;
+}
+#footer .social-subscribe h3,
+#footer .social-subscribe h4 {
+  text-align: start;
+}
+#footer .social-media a {
+  margin: 10px;
+  color: rgb(39, 39, 39);
+  float: right;
+}
+#footer .social-media a i {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+#footer .social-media a i.fa-facebook:hover {
+  color: blue !important;
+}
+#footer .social-media a i.fa-twitter:hover {
+  color: rgb(0, 213, 255) !important;
+}
+#footer .social-media a i.fa-instagram:hover {
+  color: orange !important;
+}
+
+#footer.social-media {
+  display: flex;
+  gap: 10px;
+}
+#footer.social-media a i {
+  width: 24px;
+}
+#footer form {
+  margin: 20px 0;
+  position: relative;
+}
+#footer form input {
+  padding: 5px;
+  width: 80%;
+  border: unset;
+  border-radius: unset !important;
+}
+#footer form button {
+  /* padding: 10px */
+  background-color: #555;
+  color: #fff;
+  width: 20%;
+  height: 34px;
+  /* border: 1 solid #555; */
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#footer form button:hover {
+  background-color: #6b6a6a !important;
+}
+
+
+
+/* layout_mobile_navbar_footer*/
+
+section#layout_mobile_navbar_footer {
+  margin-top: 30px;
+  height: 90px;
+  padding: 15px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-top: 2px solid rgb(156, 154, 154);
+  background-color: #c9c9c9 !important;
+  display: none;
+}
+
+div.navbar_footer {
+  text-align: center;
+  padding-top: 9px;
+  padding-bottom: 10px;
+  text-wrap: nowrap;
+}
+div.navbar_footer:hover {
+  border: 1px solid #bababa;
+  box-shadow: 1px 1px 5px #525253;
+  margin: 0 10px;
+}
+div.navbar_footer a {
+  color: #111111;
+  font-size: 15px;
+}
+
+div.mobile_footer_animation:hover a {
+  animation-play-state: running;
+  animation: change-text-size 0.9s ease forwards;
+}
+
+@keyframes change-text-size {
+  0% {
+    font-size: 14px;
+    top: 0;
+  }
+
+  25% {
+    font-size: 16px;
+    top: 0;
+  }
+
+  50% {
+    font-size: 17px;
+    top: 0;
+  }
+
+  75% {
+    font-size: 16px;
+    top: 0;
+  }
+
+  100% {
+    font-size: 14px;
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  section#layout_mobile_navbar_footer {
+    display: block;
+  }
+}
