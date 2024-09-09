@@ -3,15 +3,20 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     height: 100vh;
-    
+  
      
 }
- 
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .login-form {
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
-    max-width: 400px;
+    width: 400px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 .login-form h2 {
@@ -48,4 +53,25 @@ body {
 }
 .login-form .social-media{
     text-align: start;
+    margin-top: 15px;
+}
+
+.login-form .social-media a{
+    margin-left: 7px;
+    font-size: 18px;
+}
+
+.login-form .social-media a i.fa-google{
+    color: orange;
+}
+
+.login-form .social-media a i.fa-google:hover{
+    color: rgb(211, 137, 0);
+}
+
+.login-form .social-media a i.fa-linkedin{
+    color: rgb(105, 105, 105);
+}
+.login-form .social-media a i.fa-linkedin:hover{
+    color: rgb(14, 14, 14);
 }
