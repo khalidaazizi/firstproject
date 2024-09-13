@@ -4,11 +4,19 @@ section#daliy-discounts{
     padding: 30px;
 }
 
+.daliy-discount{
+  border: 1px solid #ede9e9;
+  padding: 22px;
+  transition: .3s;
+
+}
+.daliy-discount:hover{
+  border-color: red;
+}
 section#daliy-discounts .daliy-discount img {
   width: 100%;
   height: auto;
   display: block;
-
   border-radius: 50%;
   margin-bottom: 15px;
   transition: .3s;
@@ -18,12 +26,9 @@ section#daliy-discounts .daliy-discount img:hover{
  
 }
 
-
-
 div.daliy-discount div.daliy-discount-detail {
-  background: #51b6e2;
-  padding: 10px;
-  border-radius: 10px;
+ 
+  text-align: start;
 }
 div.daliy-discount div.daliy-discount-detail p {
   margin-right: 5px;
@@ -51,6 +56,7 @@ div.daliy-discount-detail a {
   text-align: center;
   padding: 8px 50px;
   transition: all 0.3s;
+  text-align: center;
 }
 div.daliy-discount-detail a:hover {
   background-color: #e3e0e0;

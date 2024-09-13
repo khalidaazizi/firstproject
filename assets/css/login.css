@@ -7,7 +7,7 @@ body {
      
 }
 
-.container{
+#login{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,21 +35,39 @@ body {
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 4px;
+
 }
 
+.login-form input[type="text"]:focus,
+.login-form input[type="password"]:focus{
+    outline: 0;
+    border-color: aqua;
+
+}
 
 .login-form input[type="submit"] {
     width: 100%;
     margin: 30px 0 10px 0;
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: rgb(27, 226,27);
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    /* text-align: start; */
 }
 .login-form input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color:rgb(21, 197, 21);
+}
+#show-pass{
+    color: #9e9e9e;
+    position: relative;
+    z-index: 1;
+    left: 11px;
+    top: 44px;
+}
+#show-pass:hover{
+    color: #4c4b4b;
 }
 .login-form .social-media{
     text-align: start;

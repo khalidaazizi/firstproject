@@ -1,5 +1,5 @@
 #slider_products-one img{
-  height: 200px;
+
   transition: .5s;
 }
 .bg-gray{
@@ -100,6 +100,6 @@ section#slider_products-two .owl-carousel{
   padding-bottom: 40px;
 }
 section#slider_products-two img{
-  height: 200px;
+  /* height: 200px; */
   transition: .5s;
 }

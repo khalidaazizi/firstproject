@@ -36,6 +36,7 @@ div.card div.card-thumb img {
   transform: scale(1.2);
 }
 div.card .card-body {
+  text-align: center;
   position: relative;
   padding: 10px;
   height: 150px;
@@ -91,9 +92,7 @@ div.card .card-body div.card-icons i {
   margin-left: 5px;
   color: #6b6868cc;
 }
-div.card .card-body div.card-icons i:hover {
-  color: rgb(33, 33, 33);
-}
+
 div.card:hover div.card-icons{
   margin-top: 60px;
   top: 148px;

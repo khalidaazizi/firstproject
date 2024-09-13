@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="rtl">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,107 +11,140 @@
     />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
-  
-  
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    />
+
     <!-- style css -->
-     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/login.css" />
     <title></title>
-</head>
-<body dir="rtl">
-<!-- login form -->
-        <div class="container my-5" id="login">
-            <div class="row " >
-                <div class="col-sm-12 col-md-6  col-lg-4 " >
-                    <div class="login-form">
-                        <h2>ورود/ثبت نام</h2>
-                        <form action="/login" method="POST">
-                            <label for="username"> حساب کاربری</label>
-                            <input type="text" id="username" name="username" placeholder=" شماره موبایل یا ایمیل خود را وارد کنید" autofocus required>
-                    
-                            <label for="password">رمز عبور:</label>
-                            <input type="password" id="password" name="password"  placeholder="رمز عبور  تان را وارد کنید" required>
-                            <a href="#" class="password"> پسورد را فراموش کرده اید ?</a>
-                    
-                            <input type="submit" value="ورود">
-                            <a href="">ایجاد حساب کاربری</a>
-                            <div class="social-media">
-                            <span> ورود با:</span>
-                            <a href="www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
-                            <a href="www.google.com"><i class="fa-brands fa-google"></i></a>
-                            <a href="www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            
-            </div>
+  </head>
+  <body dir="rtl">
+    <!-- login form -->
+    <div class="container my-5" id="login">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="login-form">
+            <h2>ورود/ثبت نام</h2>
+            <form action="/login" method="POST">
+              <label for="username"> حساب کاربری</label>
+              <input type="text"  id="username" name="username" placeholder=" شماره موبایل یا ایمیل خود را وارد کنید" autofocus required/>
+
+              <label for="password">رمز عبور:</label>
+              <i class="fa-regular fa-eye-slash" id="show-pass"></i>
+             
+              <input class="pass" type="password" name="password" value="افغان ۱۲۳" placeholder="رمز عبور  تان را وارد کنید"  required />
+              <a href="#" class="password"> پسورد را فراموش کرده اید ?</a>
+
+              <input type="submit" value="ورود" />
+              <a href="">ایجاد حساب کاربری</a>
+              <div class="social-media">
+                <span> ورود با:</span>
+                <a href="www.facebook.com" ><i class="fa-brands fa-facebook"></i ></a>
+                <a href="www.google.com"><i class="fa-brands fa-google"></i></a>
+                <a href="www.linkedin.com"  ><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+            </form>
+          </div>
         </div>
+      </div>
+    </div>
 
-
+       <!-- start layout_mobile_navbar_footer -->
+       <section  id="layout_mobile_navbar_footer" class="container-fluid bg-light ">
+        <div class="row">
+          <div class="col">
+            <div class="mobile_footer_animation navbar_footer">
+              <a href="index.html">
+                <i class="fa-solid fa-house"></i>
+                <p class="text-caption">خانه</p>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="mobile_footer_animation navbar_footer">
+              <a href="login.html">
+                <i class="fa-regular fa-user"></i>
+                <p>ثبت نام</p>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="mobile_footer_animation navbar_footer">
+              <a href="shopping-cart.html">
+                <i class="fas fa-cart-plus"></i>
+                <p>سبد خرید</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end  layout_mobile_navbar_footer -->
       <footer class="container-fluid  mt-5" id="footer">
-
-        <section class="container ">
-          <div class="row  mt-5">
-            <div class="col-sm-12 col-md-4 col-lg-4 mb-3">
-              <h6>اطلاعات</h6>
-              <ul class="nav flex-column">
-                <li class="nav-item"><a href="" class="nav-link">درباره ما </a></li>
-                <li class="nav-item"><a href="" class="nav-link">نحوه ارسال</a></li>
-                <li class="nav-item"><a href="" class="nav-link">محصولات جدید</a></li>
-                <li class="nav-item"><a href="" class="nav-link">محصولات منتخب</a></li>
-                <li class="nav-item"><a href="" class="nav-link">حساب کاربری</a></li>
-                <li class="nav-item"><a href="" class="nav-link">سابقه خرید</a></li>
-              </ul>
+  
+          <section class="container ">
+            <div class="row  mt-5">
+              <div class="col-sm-12 col-md-4 col-lg-4 mb-3">
+                <h6>اطلاعات</h6>
+                <ul class="nav flex-column">
+                  <li class="nav-item"><a href="" class="nav-link">درباره ما </a></li>
+                  <li class="nav-item"><a href="" class="nav-link">نحوه ارسال</a></li>
+                  <li class="nav-item"><a href="" class="nav-link">محصولات جدید</a></li>
+                  <li class="nav-item"><a href="" class="nav-link">محصولات منتخب</a></li>
+                  <li class="nav-item"><a href="" class="nav-link">حساب کاربری</a></li>
+                  <li class="nav-item"><a href="" class="nav-link">سابقه خرید</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-12 col-md-4 col-lg-4 mb-3">
+                <h6>خدمات مشتریان</h6>
+                <ul class="nav flex-column">
+                  <li class="nav-item"><a href="" class="nav-link"> حساب کاربری </a></li>
+                  <li class="nav-item"><a href="/shopping-cart.html" class="nav-link"> سبد خرید</a></li>
+                  <li class="nav-item"><a href="" class="nav-link">علاقه مندی ها </a></li>
+                  <li class="nav-item"><a href="" class="nav-link">کاهش قیمت ها</a></li>
+                  <li class="nav-item"><a href="" class="nav-link"> سابقه خرید</a></li>
+                  <li class="nav-item"><a href="" class="nav-link"> سفارشات بین المللی</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-12 col-md-4 col-lg-4 mb-3">
+                <h6>حساب کاربری</h6>
+                <ul class="nav flex-column">
+                  <li class="nav-item"><a href="" class="nav-link"> نقد و بررسی </a></li>
+                  <li class="nav-item"><a href="" class="nav-link"> نحوه ارسال</a></li>
+                  <li class="nav-item"><a href="" class="nav-link"> محصولات ویژه</a></li>
+                  <li class="nav-item"><a href="" class="nav-link"> خرید اقساطی</a></li>
+                  <li class="nav-item"><a href="" class="nav-link"> ویژه کارمندان</a></li>
+                </ul>
+              </div>
+              
             </div>
-            <div class="col-sm-12 col-md-4 col-lg-4 mb-3">
-              <h6>خدمات مشتریان</h6>
-              <ul class="nav flex-column">
-                <li class="nav-item"><a href="" class="nav-link"> حساب کاربری </a></li>
-                <li class="nav-item"><a href="" class="nav-link"> سبد خرید</a></li>
-                <li class="nav-item"><a href="" class="nav-link">علاقه مندی ها </a></li>
-                <li class="nav-item"><a href="" class="nav-link">کاهش قیمت ها</a></li>
-                <li class="nav-item"><a href="" class="nav-link"> سابقه خرید</a></li>
-                <li class="nav-item"><a href="" class="nav-link"> سفارشات بین المللی</a></li>
-              </ul>
+  
+            <!-- شبکههای اجتماعی و خبرنامه -->
+            <div class="row social-subscribe  mt-5" >
+            <div class="col-sm-12 col-md-6 ">
+              <h3>با ما در تماس باشید</h3>
+              <div class="social-media mb-3">
+                  <a href="https://facebook.com/yourstore" target="_blank" ><i class="fa-brands fa-facebook"></i> فسبوک</a>
+                  <a href="https://twitter.com/yourstore" target="_blank"><i class="fa-brands fa-twitter"></i>تویتر</a>
+                  <a href="https://instagram.com/yourstore" target="_blank"><i class="fa-brands fa-instagram"></i>انستاگرام</a>
+                  <!-- <a href="https://linkedin.com/company/yourstore" target="_blank"><img src="linkedin-icon.png" alt="لینکدین" ></a> -->
+              </div>
             </div>
-            <div class="col-sm-12 col-md-4 col-lg-4 mb-3">
-              <h6>حساب کاربری</h6>
-              <ul class="nav flex-column">
-                <li class="nav-item"><a href="" class="nav-link"> نقد و بررسی </a></li>
-                <li class="nav-item"><a href="" class="nav-link"> نحوه ارسال</a></li>
-                <li class="nav-item"><a href="" class="nav-link"> محصولات ویژه</a></li>
-                <li class="nav-item"><a href="" class="nav-link"> خرید اقساطی</a></li>
-                <li class="nav-item"><a href="" class="nav-link"> ویژه کارمندان</a></li>
-              </ul>
+            <div  class="col-sm-12 col-md-6 mb-3 ">
+              <h4>عضویت در خبرنامه</h4>
+                    <form action="/subscribe" method="post">
+                      <input type="text" class="form-control " placeholder="ایمیل خود را وارد کنید"/>
+                      <button type="submit" >عضویت</button>
+                    </form>
             </div>
-            
-          </div>
-
-          <!-- شبکههای اجتماعی و خبرنامه -->
-          <div class="row social-subscribe  mt-5" >
-          <div class="col-sm-12 col-md-6 ">
-            <h3>با ما در تماس باشید</h3>
-            <div class="social-media mb-3">
-                <a href="https://facebook.com/yourstore" target="_blank" ><i class="fa-brands fa-facebook"></i> فسبوک</a>
-                <a href="https://twitter.com/yourstore" target="_blank"><i class="fa-brands fa-twitter"></i>تویتر</a>
-                <a href="https://instagram.com/yourstore" target="_blank"><i class="fa-brands fa-instagram"></i>انستاگرام</a>
-                <!-- <a href="https://linkedin.com/company/yourstore" target="_blank"><img src="linkedin-icon.png" alt="لینکدین" ></a> -->
             </div>
-          </div>
-          <div  class="col-sm-12 col-md-6 mb-3 ">
-            <h4>عضویت در خبرنامه</h4>
-                  <form action="/subscribe" method="post">
-                    <input type="text" class="form-control " placeholder="ایمیل خود را وارد کنید"/>
-                    <button type="submit" >عضویت</button>
-                  </form>
-          </div>
-          </div>
+          
+          </section>
         
-        </section>
-      
-    </footer>
+      </footer>
+  
 
     <!-- Bootstrap JS and dependencies -->
     <script src="assets/js/main.js"></script>
@@ -121,6 +154,6 @@
     <!-- owl slider -->
     <script src="assets/js/owl.carousel.min.js"></script>
     <!-- main js  -->
-    <script src="assets/js/main.js"></script>   
-</body>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>

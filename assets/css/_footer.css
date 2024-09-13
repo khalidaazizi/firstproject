@@ -88,6 +88,7 @@ section#layout_mobile_navbar_footer {
   border-top: 2px solid rgb(156, 154, 154);
   background-color: #c9c9c9 !important;
   display: none;
+  z-index: 1;
 }
 
 div.navbar_footer {

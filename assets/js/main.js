@@ -38,11 +38,60 @@ $(document).ready(function(){
 
 //  
 $(document).ready(function(){
-    $('.fa-heart').click(function(){ 
+    $('#heart').mouseenter(function(){ 
      $(this).css("color", "red" );
     });
-    $('.fa-thumbs-up').click(function(){ 
-        $(this).css("color", " #1e9cd7"  );
+    $('#heart').mouseleave(function(){ 
+     $(this).css("color", "#6b6868cc" );
     });
+    $('#heart').click(function(){
+        $(this).removeClass('fa-regular').addClass('fa-solid'); 
+        $(this).css(" background-color", "red" );
+    });
+
+    $('#like').mouseenter(function(){ 
+        $(this).css("color", " blue"  );
+    });
+    $('#like').mouseleave(function(){ 
+        $(this).css("color", "#6b6868cc" );
+       });
+     $('#like').click(function(){
+        $(this).removeClass('fa-regular').addClass('fa-solid'); 
+        $(this).css(" background-color", "blue" );
+    });
+
+    $('#comments').mouseenter(function (){ 
+        $(this).removeClass('fa-regular').addClass('fa-solid'); 
+    });
+
+    $('#comments').mouseleave(function () {  
+        $(this).removeClass('fa-solid').addClass('fa-regular'); 
+    });
+   
     
+
 });    
+
+
+// password input 
+$(document).ready(function(){
+ $('#show-pass').click(function(){
+    if($('.pass').attr('type')=== 'password'){
+        $('.pass').attr('type', 'text');
+        $('#show-pass').removeClass('fa-eye-slash').addClass('fa-eye');
+    }
+    else{
+        $('.pass').attr('type', 'password');
+        $('#show-pass').removeClass('fa-eye').addClass('fa-eye-slash');
+    }
+
+
+
+
+
+
+
+
+ })
+});
+
